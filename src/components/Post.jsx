@@ -20,7 +20,10 @@ export function Post() {
       <div className={styles.content}>
         <p>Fala galera</p>
         <p><a href="">https://site.com</a></p>
-        <p><a href="">#novoprojeto</a></p>
+        <p>
+          <a href="">#novoprojeto</a>{' '}
+          <a href="">#nlw</a>
+        </p>
       </div>
     </article>
   );
